@@ -1,6 +1,5 @@
 ### Exercice 7 : fusion des branches
 
-1. Créez un dépôt distant sur GitHub.
-2. Faites le lien entre votre dépôt distant et votre dépôt local.
-3. Fusionnez une par une toutes vos branches dans la branche `main`.
-4. Envoyez uniquement votre branche `main` vers votre dépôt distant.
+1. Fusionnez une par une toutes vos branches locales des exercices dans la branche `main`.
+2. Synchronisez votre branche locale avec votre branche distante.
+3. Supprimez toutes les autres branches, gardez uniquement la branche `main`.

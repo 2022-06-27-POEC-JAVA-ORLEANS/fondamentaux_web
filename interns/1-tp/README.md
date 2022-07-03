@@ -12,15 +12,15 @@
 
 ## Ressources
 
-- [Guide syntaxe Markdown, à utiliser pour faire la mise en page de vos fichiers markdown](https://docs.framasoft.org/fr/grav/markdown.html)
+- [Guide de la syntaxe Markdown, à utiliser pour faire la mise en page de vos fichiers markdown](https://docs.framasoft.org/fr/grav/markdown.html)
 
 ## Définitions
 
 - ***Owner*** : propriétaire du dépôt.
 - ***Developers*** : collaborateurs qui travaillent sur le dépôt.
-- ***Issue*** : problème à résoudre, généralement on crée une *issue* lorsqu'on souhaite affecter un développeur sur une tâche, ça peut être un bug, une nouvelle fonctionnalité, de la documentation etc... Généralement l'*issue* débouche sur la création d'une nouvelle branche portant le même nom.
+- ***Issue*** : problème à résoudre, généralement, on crée une *issue* lorsqu'on souhaite affecter un développeur sur une tâche, ça peut être un bug, une nouvelle fonctionnalité, de la documentation etc... Généralement, l'*issue* débouche sur la création d'une nouvelle branche portant le même nom.
 - ***Pull/Merge request*** : il s'agit d'une demande de soumission de votre code (vos modifications sur un projet) au propriétaire du dépôt pour que ce dernier puisse l'intègre sur la branche principale *main*.
-Lorsque le propriétaire accepte votre travail, vos modifications seront *mergées*(intégrées) dans la branche *main*.
+Lorsque le propriétaire accepte votre travail, vos modifications seront *mergées* (intégrées) dans la branche *main*.
 Lorsqu'il refuse, il vous donnera la raison du refus.
 Chaque propriétaire impose ses propres exigences (fichier *`README.md`*) en matière d'installation, technologies, versions, nommage des commits, qualité du code requise, tests unitaires, intégrations, d'acceptation, fonctionnelles etc.
 - ***`README.md`*** : à la racine du projet, fichier contenant les instructions pour installer le projet plus généralement la documentation du projet.
@@ -38,26 +38,26 @@ Chaque propriétaire impose ses propres exigences (fichier *`README.md`*) en mat
 
 ## Illustrations
 
-**==Attention les noms de branches illustrés dans les images ne correspondent pas à ceux attendus ici==**
+**==Attention, les noms de branches illustrés dans les images ne correspondent pas à ceux attendus ici.==**
 
 ---
 
 ## Tâches du *owner* au lancement du projet
 
-1. Depuis Github, Créez un dépôt vide (aucun fichier) GitHub nommé ***tp-web*** .
-2. En local:
+1. Depuis GitHub, Créez un dépôt vide (aucun fichier) GitHub nommé ***tp-web*** .
+2. En local :
 
-   2.1 Faites le lien avec le dépôt distant;
+   2.1 Faites le lien avec le dépôt distant ;
 
-   2.2 Créez les fichiers `README.md` et `.gitignore`;
+   2.2 Créez les fichiers `README.md` et `.gitignore` ;
 
-   2.3 Effectuez votre **premier commit**;
+   2.3 Effectuez votre **premier commit** ;
 
-   2.4 Renommez la branche *master* en *main*;
+   2.4 Renommez la branche *master* en *main* ;
 
    2.5 *Pushez*.
    
-3. Depuis Github, invitez les 2 autres collaborateurs à participer au projet.
+3. Depuis GitHub, invitez les 2 autres collaborateurs à participer au projet.
 
    - **Settings  > Access > Collaborators > add people**.
    - Saisissez leurs adresses e-mails.
@@ -80,11 +80,11 @@ Chaque propriétaire impose ses propres exigences (fichier *`README.md`*) en mat
 ## Tâches du *owner* après le lancement du projet
 
 5. Depuis GitHub, acceptez ou rejetez les demandes *pull requests* des développeurs.
-   - En cas de rejet, indiquez au(x) développeur(s) le(s) motif(s) en utilisant le champ de commentaire proposé par GitHub ;
+   - En cas de rejet, indiquez au (x) développeur (s) le (s) motif (s) en utilisant le champ de commentaire proposé par GitHub ;
 6. En local, uniquement en cas d'acceptation des modifications :
 - Récupérez toutes modifications (branches) ;
 - *Mergez* la branche du développeur qui a soumis la demande de pull request ;
-- Resolvez les éventuels conflits ;
+- Résolvez les éventuels conflits ;
 - *Pushez* sur la branche *main*.
 
 ##### Illustration du traitement de la demande de pull-request (merge pull request)
@@ -106,7 +106,7 @@ Chaque propriétaire impose ses propres exigences (fichier *`README.md`*) en mat
    1. Créez et récupérez la branche *feature/framework*.
    ![4](img/png/prices4.png)
     ou à l'aide de la commande suivante : `git checkout -b feature/framework --track origin feature/framework` ;
-   2. Faites une recherche sur internet pour trouver des framework de chaque langage de programmation présents sur chaque ligne des fichiers ***front.md*** et ***back.md*** ;
+   2. Faites une recherche sur Internet pour trouver des framework de chaque langage de programmation présents sur chaque ligne des fichiers ***front.md*** et ***back.md*** ;
    4. Pushez vos modifications sur le dépôt distant ;
    5. Effectuez un *merge requests* de cette branche dans la branche *main* en assignant l'un des développeurs pour faire la revue de code ;
 9. Prévenez vos collaborateurs de l'ajout des frameworks.
