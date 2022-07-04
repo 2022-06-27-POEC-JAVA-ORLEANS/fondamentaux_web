@@ -6,7 +6,7 @@
 - Le client effectue une requête au serveur pour demander par exemple la page des commandes du site web `cdiscount.com`.
 - Le serveur reçoit la requête et le traite.
 - Le serveur renvoie :
- - Le code d'état de la réponse dont la valeur est 200 en cas de succès, c'est-à-dire que le serveur répond au client. Cette partie constitue l'en-tête de la réponse.
+ - Le code d'état de la réponse dont la valeur est 200 en cas de succès, c'est-à-dire que le serveur répond correctement à la demande du client. Cette partie constitue l'en-tête de la réponse.
  - La page des commandes contentant les informations de l'utilisateur connecté actuellement sur le site web. Cette partie constitue le corps de la réponse.
  Ce code est une énumération (liste fermée) dont les valeurs peuvent être regroupées dans 5 grandes familles :
  - 1xx : informations
