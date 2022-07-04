@@ -158,7 +158,7 @@ Depuis l'onglet issue
 `git checkout -b feature/back --track origin feature/back`
 4. **En local, à la racine du projet**
 
-   1. Créez un fichier nommé ***`front.md`*** qui doit lister les langages utilisés au niveau du back-end, ==un langage par ligne==.
+   1. Créez un fichier nommé ***`back.md`*** qui doit lister les langages utilisés au niveau du back-end, ==un langage par ligne==.
    2. Créez un fichier nommé ***`fullstack.md`*** contenant les langages utilisés par un développeur fullstack, ==un langage par ligne==.
 5. En local, *commitez* et *pushez* sur la branche *feature/back*.
 6. Depuis GitHub, faites une demande de *pull request* :
