@@ -16,6 +16,6 @@
 3. Effectuez votre premier commit
 4. Renommez la branche `master` en `main`
 5. Créez une nouvelle branche nommée `feature/exercise1`.
-6. Modélisez sous forme de diagramme de classe, les différents services d'Internet et les parties du Web à partir du texte ci-dessus.
+6. Modélisez sous forme de diagramme de classe, les différents services d'Internet à partir du texte ci-dessus.
 7. Commitez votre travail.
 8. Envoyez vos modifications sur le dépôt distant Github depuis la branche `feature/exercise1`.
